@@ -34,15 +34,11 @@ module.exports = {
             {
                 text: 'Downloads',
                 link: '/docs/downloads-configuration.html',
-            }
-
-            /*
-            Link zum Spiel?
+            },
             {
                 text: 'Zum Spiel',
-                link: '/admin',
+                link: 'https://melopoiia.netlify.app'
             }
-            */
         ]
 
     }
