@@ -1,9 +1,9 @@
 {
-  "name": "vuepress",
+  "name": "melopoiia-help",
   "version": "1.0.0",
-  "repository": "https://github.com/capriosa/vuepress-deploy",
-  "description": "Starter template for a VuePress site",
-  "author": "Meinolf Droste <mdwp.post@gmail.com>",
+  "repository": "https://github.com/hurrrrricaaaaane/melopoiia-help",
+  "description": "Melopoiia Hilfe und Info Seite",
+  "author": "Josef Puff <josef.puff@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev",

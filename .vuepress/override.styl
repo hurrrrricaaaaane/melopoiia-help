@@ -1,19 +1,16 @@
-$accentColor = #4527a0
-$textColor = #212121
-$borderColor = #bdbdbd
-$codeBgColor = #282c34
+$accentColor = #f9d79a
+$textColor = #1D1D1D
+$borderColor = #f9d79a
+$codeBgColor = #1D1D1D
 
 .front {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("/front.jpg");
-    background-size: cover;
-    padding-top: 10%;
-    
-    
+    //background-image url('/front.jpg')
+    background-size: cover
+    padding-top: 15%;
 }
 
 .sidebar {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url("/sidebar.jpg");
-    background-size: cover;
+    background-color: #1D1D1D;
 }
 
 h1, h2, h3 {
@@ -26,23 +23,26 @@ h1, h2, h3 {
     margin: 0 0; /* This will center the border. */
     width: 5%; /* Change this to whatever width you want. */
     padding-top: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 3px solid #4527a0; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 3px solid #1D1D1D; /* This creates the border. Replace black with whatever color you want. */
 }
 
 body
    overflow-x: hidden !important;  
+   background-color: #1D1D1D;
+   color: #fff !important;
 
 @media (min-width: 1000px)
     .front
-        max-height: 85vh;
+        max-height: 100%;
     .home .features 
         margin-bottom: 170px !important;
+        margin-top: 100px;
 
 
 @media  (max-width:999px) 
     .content.custom 
     
-        background: #fff;
+        background: #1D1D1D;
         position: absolute;
         padding: 20px 30px 0 20px !important;
         margin: 0;
@@ -52,43 +52,51 @@ body
 
 
 
-
-
-
-
 .home .hero, .home .description, .home .feature h2, .home .feature p{
-    color: #fff !important;
+    color: #f9d79a !important;
+}
+
+.action-button {
+    background-color: #1D1D1D !important;
+    border: 2px solid #f9d79a !important;
+
+}
+.action-button:hover {
+    background-color: #f9d79a !important;
+    color: #1D1D1D !important;
+    transform: scale(1.1);
+    transition: transform 2s;
 }
 
 .sidebar {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.85)), url("/sidebar.jpg");
-  color: #fff
+    color: #fff
 }
 
 .sidebar a {
-    color: #fff;
+    color: #fff
 }
 
 .sidebar-links {
-    background-color: #19212b;
-    border-top: 1px solid #404854;
-    border-bottom: 1px solid #404854;
+    background-color: #1D1D1D;
+    border-top: 1px solid #1D1D1D;
+    border-bottom: 1px solid #1D1D1D;
     margin-top: 60px !important
 }
 
 .sidebar .nav-links {
-    background-color: #19212b;
+    background-color: #1D1D1D;
     border-top: none;
-    border-bottom: 1px solid #404854;
+    border-bottom: 1px solid #f9d79a;
+    color: #fff;
 }
 
 .theme-container .sidebar {
-  background-color: #262f3d;
+  background-color: #1d1d1d;
 }
 
 .theme-container .search-box input,
 .theme-container .search-box .suggestion a {
-  color: #009688;
+  color: #f9d79a;
 }
 
 .theme-container .content code {
@@ -96,7 +104,7 @@ body
 }
 
 .navbar {
-    background-color: #7953d2 !important;
+    background-color: #1D1D1D !important;
 }
 
 .site-name {

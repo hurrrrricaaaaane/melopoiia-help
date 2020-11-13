@@ -1,42 +1,48 @@
 module.exports = {
-    title: "VuePress Deploy",
+    title: "Melopoiia Wiki",
     locales: {
         '/': {
             lang: 'de-DE',
-            title: 'VuePress Deploy',
-            description: 'Vuepress with Netlify Deploy Button'
+            title: 'Melopoiia Wiki',
+            description: 'Alle Informationen rund um Melopoiia'
         }
     },
     head: [
         ['link', { rel: 'icon', href: `/logo.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['link', { rel: 'canonical', href: 'https://vuepress-deploy.netlify.com' }],
-        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        ['link', { rel: 'canonical', href: 'https://melopoiia-wiki.netlify.com' }],
+        ['meta', { name: 'theme-color', content: '#f9d79a' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
         ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
         ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
-        ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+        ['meta', { name: 'msapplication-TileColor', content: '#1D1D1D' }]
     ],
     serviceWorker: true,
     themeConfig: {
         docsDir: 'docs',
-        repo: 'capriosa/vuepress-deploy',
 
         nav: [{
-                text: 'Start',
-                link: '/docs/',
+                text: 'Spielinformationen',
+                link: '/docs/gameplay-configuration.html',
             },
             {
-                text: 'Admin',
-                link: '/admin',
+                text: 'Hilfeartikel',
+                link: '/docs/help-configuration.html',
             },
             {
-                text: 'NetlifyCMS Config Help',
-                link: '/docs/netlifycms-configuration.html',
+                text: 'Downloads',
+                link: '/docs/downloads-configuration.html',
             }
 
+            /*
+            Link zum Spiel?
+            {
+                text: 'Zum Spiel',
+                link: '/admin',
+            }
+            */
         ]
 
     }
